@@ -5,7 +5,7 @@ body {
 }
 
 header > div {
-  padding: 0 25px;
+  padding: 0 29px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -34,11 +34,169 @@ nav a {
 }
 
 .logo{
+  display: flex;
+  justify-content:flex-end ;
  box-sizing: border-box;
- width: 80px;
+ width: 100px;
+ padding: 1em;
 }
 
 .maginfying-glass{
   display: flex;
   width: 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.searchbar{
+  display: flex;
+  justify-content:flex-start;
+  color: grey;
+  align-items: center;
+  align-content: center;
+  width: 1000px;
+
+
+
+}
+
+.search{
+  background-color:#f2f2f2 ;
+  padding: 5px;
+  display: flex;
+
+}
+
+#search-field{
+  width: 1000px;
+  border: 0;
+  background-color: #f2f2f2;
+}
+
+#submit-button{
+  display: flex;
+  justify-content: center;
+  align-content: flex-start;
+  background-color: #fb3e44;
+  align-items: center;
+  color: white;
+  font-family: Poppins;
+  border: none;
+
+}
+
+#join-button{
+  color: black;
+  border: 1px solid #cccccc;
+  text-decoration: none;
+  padding: 0px 25px;
+  border-radius: 0;
+  line-height: 40px;
+}
+
+#login-button{
+  text-decoration: none;
+  color:black
+}
+
+#build-amazing-things{
+  height: 600px;
+  background-color: rgba(232, 217, 217, 217.3);
+}
+
+.main-header{
+  display: flex;
+  justify-content: center;
+padding-top: 200px;
+font-size: 70px;
+
+
+}
+
+.first-article{
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+#seeplans-btn{
+  text-decoration: none;
+  background-color: #fb3b49;
+width: 120px;
+text-align: center;
+color: white;
+box-shadow: 8px 8px 0 rgba(251,59,73,.2 );
+}
+
+#join-btn{
+  text-decoration: none;
+  color: black;
+}
+
+#opensorce-information{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.hexagon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 200px;
+  padding: 20px;
+}
+
+.second-header{
+  font-size: 30px;
+  background-color: rgba(255,204,53,.4);
+  transform: skew(9deg,0deg);
+  font-style: italic;
+  margin: 10px;
+  width: fit-content ;
+}
+
+.second-article{
+  text-align: center;
+  padding-top: 10px;
+}
+
+#general-information{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+text-align: justify;
+padding: 40px ;
+
+}
+
+.header-container{
+  color: #ED1C24;
+}
+
+.container{}
+
+.service-box{
+  width: 30px;
+}
+
+#create-btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-btn{
+  text-decoration: none;
+  color: white;
+  background-color: black ;
+  box-shadow: 8px 8px 0 rgba(128,83,35,.2);
+  padding: 10px 40px;
 }
